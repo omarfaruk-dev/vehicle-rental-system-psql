@@ -112,5 +112,5 @@ CREATE DATABASE vehicle_rental_system;
 
 ## 📞 Contact
 
-**Email:** [omar@brightfuturesoft.com]  
-**GitHub:** [github.com/omarfaruk-dev]
+**Email:** omar@brightfuturesoft.com  
+**GitHub:** github.com/omarfaruk-dev
