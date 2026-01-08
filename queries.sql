@@ -1,6 +1,6 @@
 
   --! Query 1: INNER JOIN
-
+SELECT * FROM bookings;
 SELECT
   b.booking_id,
   u.name AS customer_name,
@@ -16,7 +16,7 @@ INNER JOIN vehicles v
 ORDER BY b.booking_id;
 
 
---! Query 2: EXISTS
+--!  Query 2: EXISTS
 
 SELECT *
 FROM vehicles v
@@ -27,7 +27,7 @@ WHERE NOT EXISTS (
 );
 
 
---! Query 3: WHERE
+--!  Query 3: WHERE
 
 SELECT *
 FROM vehicles
