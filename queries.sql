@@ -1,6 +1,5 @@
 
   --! Query 1: INNER JOIN
-SELECT * FROM bookings;
 SELECT
   b.booking_id,
   u.name AS customer_name,
